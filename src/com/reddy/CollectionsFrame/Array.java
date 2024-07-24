@@ -2,6 +2,7 @@ package com.reddy.CollectionsFrame;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Iterator;
 public class Array {
 
 	public static void main(String[] args) {
@@ -28,14 +29,26 @@ public class Array {
 //al.set(2, 90);
 //System.out.println(al.get(2));
 
-
+System.out.println(al.isEmpty());
+//al.clear();//clear all the data
 		//System.out.println(al);
 		
-		for (Integer integer : al) {
-			System.out.println(al);
-			Collections.synchronizedList(al);// improves synchronization
-		}
-		
+//		for (Integer integer : al) {
+//			System.out.println(al);
+//			//Collections.synchronizedList(al);// improves synchronization
+//		}
+//		
+
+Iterator it=al.iterator();
+//Iterator<Object>it=al.iterator();if we have all type of data otherwise use specific integer or string
+while(it.hasNext()) {
+	System.out.println(it.next());
+}
 	}
+
+
+
+
+
 
 }

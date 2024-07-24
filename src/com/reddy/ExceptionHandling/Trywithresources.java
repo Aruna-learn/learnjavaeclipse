@@ -28,9 +28,9 @@ public class Trywithresources {
 			  }
 				    catch(ArithmeticException ae) {
 				    	
-				    	// throw new ArithmeticException("never");// changing exception msg /by zero to never
+				    	 throw new ArithmeticException("never");// changing exception msg /by zero to never
 				    	
-				    	throw new LoginException("login not working");// create new class as login exceptiona and object creation and super message
+				    	//throw new LoginException("login not working");// create new class as login exceptiona and object creation and super message
 				    	
 				    //System.exit(0);//stops here didn't execute finally block
 				    }

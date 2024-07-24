@@ -50,7 +50,7 @@ public class SetPractiseHashSet {
 			System.out.println(integer);
 		}
 		  
-		  
+		//classic for loop not poosible becoz no index  in set so use foreach 
 		  
 		  
 		  

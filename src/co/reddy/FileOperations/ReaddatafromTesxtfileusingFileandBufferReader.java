@@ -7,9 +7,10 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Program5 {
+public class ReaddatafromTesxtfileusingFileandBufferReader {
 
 	public static void main(String[] args) throws IOException {
+		//Read the dtaa from text file using filereader and bufferereader
     File file =new File("./Input.txt");
     
     FileReader fr=new FileReader(file);

@@ -11,8 +11,8 @@ public class Aruna {
 	
 
 	public static void main(String[] args) {
-		Chinni c=new Aruna();
-		c.run();
+		//Chinni c=new Aruna();
+		//c.run();
 	}
 	}
 
@@ -41,6 +41,6 @@ public class Aruna {
 		
 	}
 		
-	}
+	
 
 

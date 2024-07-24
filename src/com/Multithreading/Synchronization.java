@@ -50,3 +50,4 @@ class BrickDiary{
 		brickcount +=50;
 	}
 }
+}

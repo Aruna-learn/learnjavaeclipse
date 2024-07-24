@@ -4,12 +4,12 @@ import java.util.Iterator;
 
 public class ShortcutKeys{
 
-	public static void main(string[] args) {
+	public static void main(String[] args) {
 		
 	
-
+	}
 	
-
+	}
 
 
 /*
@@ -83,9 +83,9 @@ public class ShortcutKeys{
  * debugging
  */
 
-Ctrl + F11: Use this to run the last application opened.
-F11: Run the program in debug mode, where you can step through the code and inspect variables.
-Show Perspectives 
-
-Ctrl + Shift + B: This opens the Breakpoints view, which displays all the breakpoints set in your workspace.
-Ctrl + Alt + R: This opens the Debug Perspective, a special view that provides tools and information specifically for debugging.
+//Ctrl + F11: Use this to run the last application opened.
+//F11: Run the program in debug mode, where you can step through the code and inspect variables.
+//Show Perspectives 
+//
+//Ctrl + Shift + B: This opens the Breakpoints view, which displays all the breakpoints set in your workspace.
+//Ctrl + Alt + R: This opens the Debug Perspective, a special view that provides tools and information specifically for debugging.

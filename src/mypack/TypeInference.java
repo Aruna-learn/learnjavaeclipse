@@ -1,4 +1,4 @@
-package mypack;
+ package mypack;
 
 public class TypeInference {
   

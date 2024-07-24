@@ -44,6 +44,7 @@ public class TestThread4 {
 t2.start();// if we start the thread again it will not start we get java.lang.IllegalThreadStateException
 t2.notify();
 t2.notifyAll();
-t1.da
+
 	}
 }
+

@@ -20,6 +20,7 @@ String s4=new String("Mona");
 String s5=new String("Mona");
 String s6=new String ("Aruna reddy mona monazi ");
 
+System.out.println(s3.intern());
 
 
 
@@ -49,7 +50,8 @@ String s6=new String ("Aruna reddy mona monazi ");
 //	System.out.println(s1.lastIndexOf("a"));// if duplicate char in the given string then we can use the last index of for the wanted  second duplicate char index then it will show the last index
 //	System.out.println(s6.substring(1));//starts with 1 index
 //	System.out.println(s6.substring(3));//start with 3index
-//	System.out.println(s6.substring(1,4));//starts with 1 and ends with 4 index
+
+	System.out.println(s6.substring(1,4));//starts with 1 and ends with 4 index[starting index starts with 0 and ending index starts with 1]
 //	
 /*
  * System.out.println(s6.split(" "));// prints array
@@ -83,7 +85,7 @@ String s6=new String ("Aruna reddy mona monazi ");
 	String s8="    aruna ";
 	String s9="";
 	System.out.println(s8.isBlank());//remove blank space the verify
-	System.out.println(s8.isEmpty());//number of characters contained in a string is zero.
+	System.out.println(s9.isEmpty());//number of characters contained in a string is zero.
 	System.out.println(s4.compareTo(s5));
 	
 	/*public class ConcatExample2 {  

@@ -14,7 +14,7 @@ public class Exampletyep {
 		
 		
 		Exampletyep ex=new Exampletyep();
-		ex.sum(20, 20);
+		//ex.sum(20, 20);
 		System.out.println(ex);
 	}
 

@@ -77,6 +77,10 @@ public class MapPractise {
 		System.out.println(m.size());
 		//m.clear();
 		
+		
+		System.out.println(m.values());
+		System.out.println(m.keySet());
+		
 	//m.entrySet() iterate like for loop to get keys and values- entry set
 		
 		Set<Entry<Integer, String>> entries=m.entrySet();

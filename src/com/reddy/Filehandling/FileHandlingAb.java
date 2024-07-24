@@ -22,7 +22,8 @@ public class FileHandlingAb {
     //System.out.println(f.isHidden());
 System.out.println(f.canWrite());
 //f.setWritable(true);
-
+System.out.println(f.lastModified()
+		);
 System.out.println(f.getName());
 	}
 

@@ -8,7 +8,7 @@ public class TypeConversion {
 		short s=230;//-32,768 to 32,767 16bit
 		int i=450;// 2,147,483,648 (-2^31) to 2,147,483,647 (2^31 -1)  32bit
 		float f=21.5f;// 32bit
-		long l=2334567;// 96bit -9,223,372,036,854,775,808(-2^63) to 9,223,372,036,854,775,807(2^63 -1)
+	//	long l=2334567;// 96bit -9,223,372,036,854,775,808(-2^63) to 9,223,372,036,854,775,807(2^63 -1)
 		double d=43.89;//64bit
 		
 		char ch='A';
@@ -24,7 +24,7 @@ public class TypeConversion {
 //		f=s;
 		
 		
-		i=(int) l;//i<i so we are using here explicit by (int)
+		//i=(int) l;//i<l so we are using here explicit by (int)
 		b= (byte)f;
 			
 		
@@ -38,9 +38,23 @@ public class TypeConversion {
 		int b1=ch+s;
 		// if greater than interger it promotes to highest data type
 		
-		long b2=b+i+l;
+		//long b2=b+i+l;
 		
-		System.out.println(b2);
+	//	System.out.println(b2);
+		
+		
+		//upcasting assig directly
+		int i1=18;
+		double d1=i1;
+		System.out.println(d1);
+		
+		//downcasting typecast
+		long l1=6754065;
+		int i2=(int)l1;
+		System.out.println(i2);
+		
+		
+		
 		
 	}
 
